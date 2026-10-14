@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ulin Music - Streaming</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="site-header">
+        <div class="container">
+            <h1>Ulin <span class="highlight">Music</span></h1>
+            <p>Dengarkan lagu favoritmu tanpa ribet.</p>
+        </div>
+    </header>
+
+    <nav class="site-nav">
+        <div class="container">
+            <a href="index.html" class="highlight">Beranda</a>
+            <a href="#request">Request Lagu</a>
+        </div>
+    </nav>
+
+    <main class="container cf">
+        <!-- Area Kiri: 5 Kartu Lagu -->
+        <section class="main-content">
+            <h2>Playlist Populer Ulin</h2>
+            
+            <a href="lagu1.html">
+                <article class="music-card cf">
+                    <img src="https://i.scdn.co/image/ab67616d0000b273d42a27db3286b1c1d04497e7" alt="Cover" class="album-cover">
+                    <div class="music-info">
+                        <h3>1. Sempurna</h3>
+                        <p>Andra & The Backbone</p>
+                        <span class="play-btn">Klik untuk memutar lagu</span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="lagu2.html">
+                <article class="music-card cf">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2738f7127d49b2938b81313e61c" alt="Cover" class="album-cover">
+                    <div class="music-info">
+                        <h3>2. Kangen</h3>
+                        <p>Dewa 19</p>
+                        <span class="play-btn">Klik untuk memutar lagu</span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="lagu3.html">
+                <article class="music-card cf">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27341e31d6ea1d493dd77933ee5" alt="Cover" class="album-cover">
+                    <div class="music-info">
+                        <h3>3. Hati-Hati di Jalan</h3>
+                        <p>Tulus</p>
+                        <span class="play-btn">Klik untuk memutar lagu</span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="lagu4.html">
+                <article class="music-card cf">
+                    <img src="https://i.scdn.co/image/ab67616d0000b27306fb46b83de5bc6328328c64" alt="Cover" class="album-cover">
+                    <div class="music-info">
+                        <h3>4. Komang</h3>
+                        <p>Raim Laode</p>
+                        <span class="play-btn">Klik untuk memutar lagu</span>
+                    </div>
+                </article>
+            </a>
+
+            <a href="lagu5.html">
+                <article class="music-card cf">
+                    <img src="https://i.scdn.co/image/ab67616d0000b2731c3bfbb2e68407421370cc1a" alt="Cover" class="album-cover">
+                    <div class="music-info">
+                        <h3>5. Monokrom</h3>
+                        <p>Tulus</p>
+                        <span class="play-btn">Klik untuk memutar lagu</span>
+                    </div>
+                </article>
+            </a>
+        </section>
+
+        <!-- Area Kanan: Sidebar -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <h2>Info Playlist</h2>
+                <p>Klik salah satu lagu di samping untuk masuk ke halaman pemutaran musik beserta lirik lengkapnya.</p>
+            </div>
+        </aside>
+
+        <!-- Form Request Lagu -->
+        <section class="contact-section" id="request">
+            <h2>Request Lagu Baru</h2>
+            <form action="#" method="GET">
+                <div class="form-group">
+                    <label>Nama Kamu:</label>
+                    <input type="text" name="nama" required>
+                </div>
+                <div class="form-group">
+                    <label>Judul Lagu & Artis:</label>
+                    <input type="text" name="judul" required>
+                </div>
+                <button type="submit" class="submit-btn">Kirim Request</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <p>&copy; 2026 Muhammad Wahyu Ramadlan (Ulin) - UTS Web Programming 1</p>
+    </footer>
+</body>
+</html>

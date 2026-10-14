@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sempurna - Ulin Music</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<!-- Class player-page berfungsi memberi jarak bawah agar lirik tak tertutup audio -->
+<body class="player-page">
+    
+    <nav class="site-nav">
+        <div class="container">
+            <a href="index.html">← Kembali ke Playlist</a>
+        </div>
+    </nav>
+
+    <main class="container cf">
+        <!-- Area Kiri: Cover Besar & Lirik -->
+        <section class="main-content">
+            <div class="cover-wrapper">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d42a27db3286b1c1d04497e7" alt="Cover Besar" class="cover-massive">
+            </div>
+            
+            <div class="lyrics-section">
+                <h3>Lirik: Sempurna</h3>
+                <p>
+                    Kau begitu sempurna<br>
+                    Di mataku kau begitu indah<br>
+                    Kau membuat diriku<br>
+                    Akan s'lalu memujamu<br>
+                    <br>
+                    Di setiap langkahku<br>
+                    Kukan s'lalu memikirkan dirimu<br>
+                    Tak bisa kubayangkan hidupku tanpa cintamu<br>
+                    <br>
+                    Janganlah kau tinggalkan diriku<br>
+                    Takkan mampu aku tuk hidup tanpamu<br>
+                    Karna kau lah nafas hidupku
+                </p>
+            </div>
+        </section>
+
+        <!-- Area Kanan: Daftar Antrean Berikutnya -->
+        <aside class="sidebar">
+            <div class="sidebar-box">
+                <h2>Berikutnya</h2>
+                <ul class="queue-list">
+                    <!-- Lagu 1 (Sedang Diputar) -->
+                    <li class="active-track cf">
+                        <img src="https://i.scdn.co/image/ab67616d0000b273d42a27db3286b1c1d04497e7" alt="Cover" class="queue-img">
+                        <div class="queue-info">
+                            <h4>1. Sempurna</h4>
+                            <p>Andra & The Backbone</p>
+                        </div>
+                    </li>
+                    <!-- Lagu 2 -->
+                    <li>
+                        <a href="lagu2.html" class="cf">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2738f7127d49b2938b81313e61c" alt="Cover" class="queue-img">
+                            <div class="queue-info">
+                                <h4>2. Kangen</h4>
+                                <p>Dewa 19</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Lagu 3 -->
+                    <li>
+                        <a href="lagu3.html" class="cf">
+                            <img src="https://i.scdn.co/image/ab67616d0000b27341e31d6ea1d493dd77933ee5" alt="Cover" class="queue-img">
+                            <div class="queue-info">
+                                <h4>3. Hati-Hati di Jalan</h4>
+                                <p>Tulus</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Lagu 4 -->
+                    <li>
+                        <a href="lagu4.html" class="cf">
+                            <img src="https://i.scdn.co/image/ab67616d0000b27306fb46b83de5bc6328328c64" alt="Cover" class="queue-img">
+                            <div class="queue-info">
+                                <h4>4. Komang</h4>
+                                <p>Raim Laode</p>
+                            </div>
+                        </a>
+                    </li>
+                    <!-- Lagu 5 -->
+                    <li>
+                        <a href="lagu5.html" class="cf">
+                            <img src="https://i.scdn.co/image/ab67616d0000b2731c3bfbb2e68407421370cc1a" alt="Cover" class="queue-img">
+                            <div class="queue-info">
+                                <h4>5. Monokrom</h4>
+                                <p>Tulus</p>
+                            </div>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </aside>
+    </main>
+
+    <!-- BAR PEMUTAR AUDIO DI BAWAH (MENEMPEL/FIXED) -->
+    <footer class="bottom-player-bar">
+        <div class="bottom-container cf">
+            <div class="now-playing-info">
+                <img src="https://i.scdn.co/image/ab67616d0000b273d42a27db3286b1c1d04497e7" alt="Cover" class="bottom-cover">
+                <div class="bottom-text">
+                    <h4>Sempurna</h4>
+                    <p>Andra & The Backbone</p>
+                </div>
+            </div>
+            
+            <div class="audio-controls-wrapper">
+                <!-- Autoplay disertakan agar saat halaman dibuka lagu langsung jalan -->
+                <audio controls autoplay class="bottom-audio">
+                    <!-- ARAHKAN KE FILE MP3 LOKALMU -->
+                    <source src="audio/lagu1.mp3" type="audio/mpeg">
+                </audio>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
